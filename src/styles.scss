@@ -1,0 +1,30 @@
+.hoodie-container{
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 30px;
+        .header-title{
+            text-align: center;
+            font-size: 32px;
+            font-weight: '700';
+            color: blueviolet;
+            border-bottom: 1px solid blueviolet;
+        }
+    }
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+        color: blueviolet;
+        .hero-text{
+            text-align: center;
+        }
+    }
+}
