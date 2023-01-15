@@ -1,0 +1,15 @@
+.titlefor{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+
+.testGrid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 4;
+    row-gap: 20px;
+    column-gap: 10px;
+    padding-bottom: 50px;
+}

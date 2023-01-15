@@ -1,0 +1,96 @@
+.menu{
+    .container{
+        align-items: center;
+        height: 128px; overflow: hidden; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        .menu-left{
+            width: 40%;
+
+            .wrapper{
+                background-color: #FFFFFF;
+
+                display: flex;
+                gap: 30px;
+                padding: 10px 30px;
+                border-radius: 10px;
+                .kiri{
+                    display: flex;
+                    gap: 30px;
+                 
+                    .logo{
+                        background-color: rebeccapurple;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50px;
+                        
+                    }
+    
+                    .toko{
+
+                        .nama{
+                            font-weight: 600;
+                        }
+    
+                        .follower{
+                            font-size: 12px;
+                            color: #817a7a;
+                        }
+    
+                        .penilaian{
+                            font-size: 12px;
+                            color: #817a7a;
+                        }
+                    }
+                }
+
+                .kanan{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    .chat{
+                        padding: 5px 0px 0px;
+                        cursor: pointer;
+                        display: flex;
+                        flex-direction: column;
+                        span{
+                            font-size: 12px;
+                            font-weight: 700;
+                            color: #1c484b;
+                        }
+
+                        .img-chat{
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+
+                    .ikuti{
+                        padding: 5px 0px 0px;
+                        cursor: pointer;
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 20px;
+                        span{
+                            color: #ef592b;
+                            font-size: 12px;
+                            
+                        }
+                        .img-store{
+                            width: 30px;
+                            height: 30px;
+                            color: #ef592b;
+                        }
+                    }
+                }
+            }
+        }
+        .menu-right{
+            width: 20%;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.footer_container{
+    display: flex;;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #faf0f0e3;
+    .about{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px
+    }
+    .payment_method{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+    .sosmed_icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 20px;
+        .sosmed_icon_single{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+    }
+}

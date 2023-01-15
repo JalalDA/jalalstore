@@ -1,0 +1,55 @@
+.tabmenu{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+    background-color: #ffffff;
+    position: relative;
+    .tabActive{
+        font-size: 16px;
+        font-weight: 700;
+        color:  #dec189;
+        cursor: pointer;
+        transition: 0.3s all ease;
+        border-bottom: 2px solid  #dec189;
+        padding-bottom: 3px;
+    }
+    .tab{
+        font-size: 16px;
+        color: #666;
+        cursor: pointer;
+        padding-bottom: 3px;
+        border-bottom: 2px solid #FFFFFF;
+    }
+    .item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .arrowIcon{
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    .categoriesActive{
+        position: absolute;
+        top: 60%;
+        background-color: #fff;
+        padding: 10px;
+        border: 1px solid rgb(208, 203, 203);
+        border-radius: 12px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 10px;
+        .category{
+            cursor: pointer;
+            font-size: 12px;
+        }
+    }
+    .categories{
+        display: none;
+    }
+}
